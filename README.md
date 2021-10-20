@@ -11,14 +11,14 @@
 This project is developed using only vanilla JavaScript with the feature of dark and light mood. It helps you add, remove or edit todos in your todos list. You can then filter your todos according to their current state.
 
 ## How To Use
--Type a todo in the textbox and press enter to add it.
--Click on the todo to mark it as completed.
--Click on the X on the right side of the todo to delete it.
--You can filter the todos to be displayed from the filter buttons.
--You can switch between dark and light moods by clicking on the sun/moon icon.
+-Type a todo in the textbox and press enter to add it. <br />
+-Click on the todo to mark it as completed. <br />
+-Click on the X on the right side of the todo to delete it. <br />
+-You can filter the todos to be displayed from the filter buttons. <br />
+-You can switch between dark and light moods by clicking on the sun/moon icon. <br />
 
 ## Initialization
--Download the project (or clone).
+-Download the project (or clone). <br />
 -Run the html file in the browser.
 
 ## License
