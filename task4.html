@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="task4.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+    </style>
+  </head>
+
+  <body class="dark">
+    <div id="container">
+      <header id="title">
+        <h1>TODO</h1>
+        <img id="toggle-mode" src="images/icon-sun.svg" alt="Light Mode" />
+      </header>
+      <form id="form" action="">
+        <div class="main-div main-div-dark">
+          <span class="inner-circle"
+            ><img class="check" src="images/icon-check.svg" alt=""
+          /></span>
+          <input
+            type="text"
+            class="main-div-dark"
+            name="Add Todo"
+            id="addTodoInput"
+            placeholder="Add Todo"
+          />
+        </div>
+        <div class="warning-div">
+          <span class="hidden" id="warning"
+            >Duplicate and empty todos are invalid, please enter another todo!</span
+          >
+        </div>
+      </form>
+      <div class="visible" id="todos"></div>
+      <div class="hidden" id="completed"></div>
+      <div class="hidden" id="remaining"></div>
+      <div class="main-div main-div-dark button-group">
+        <span class="items-left-dark" id="items-left">0 items left</span>
+        <button class="button-dark button-active" id="allTodosBtn">All</button>
+        <button class="button-dark" id="remainingTodosBtn">Active</button>
+        <button class="button-dark" id="completedTodosBtn">Completed</button>
+        <button class="button-dark" id="clear">Clear Completed</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="task4.js"></script>
+  </body>
+</html>
